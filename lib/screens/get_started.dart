@@ -1,4 +1,5 @@
 //44 20 221
+import 'package:fintech_mobile/misc/get_started_model.dart';
 import 'package:flutter/material.dart';
 
 class GetStartedPage extends StatelessWidget {
@@ -59,7 +60,30 @@ class GetStartedPage extends StatelessWidget {
                   ),
                 ),
               ],
-            )
+            ),
+            SizedBox(height: 10),
+            GetStartedCardWidget(
+                header: 'Verify your email address',
+                text:
+                    'This is the bank account we would track and manage your spendings',
+                image: 'lib/assets/email.png'),
+            SizedBox(height: 24),
+            GetStartedCardWidget(
+                header: 'Verify your email address',
+                text:
+                    'This is the bank account we would track and manage your spendings',
+                image: 'lib/assets/email.png'),
+            SizedBox(height: 24),
+            GetStartedCardWidget(
+                header: 'Connect your bank account',
+                text:
+                    'This is the bank account we would track and manage your spendings',
+                image: 'lib/assets/rotate house.png'),
+            SizedBox(height: 24),
+            GetStartedCardWidget(
+                header: 'Set up a security pin',
+                text: 'Create a secure pin to safeguard your Brees account',
+                image: 'lib/assets/padlock.png'),
           ],
         ),
       ),
