@@ -1,5 +1,4 @@
-import 'package:fintech_mobile/screens/get_started.dart';
-import 'package:fintech_mobile/screens/logInScreen.dart';
+import 'package:fintech_mobile/screens/account_setup_screen.dart/mono.dart';
 
 import 'package:flutter/material.dart';
 
@@ -10,8 +9,8 @@ void main() {
     initialRoute: '/signUp',
     routes: {
       // '/splash': (context) => const SplashScreen(),
-      '/home': (context) => const LoginScreen(),
-      '/signUp': (context) => const LoginScreen(),
+      '/home': (context) => const Mono(),
+      '/signUp': (context) => const Mono(),
     },
   ));
 }

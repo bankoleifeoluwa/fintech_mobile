@@ -43,3 +43,5 @@ class AppTextField extends StatelessWidget {
     );
   }
 }
+
+//TODO - Fix textfield border and inner color
