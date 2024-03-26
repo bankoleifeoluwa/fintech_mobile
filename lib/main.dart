@@ -1,8 +1,7 @@
 import 'package:fintech_mobile/screens/get_started.dart';
-import 'package:fintech_mobile/screens/welcome_user.dart';
-import 'package:flutter/material.dart';
+import 'package:fintech_mobile/screens/logInScreen.dart';
 
-import 'screens/onboarding_Screens/onboarding_screen.dart';
+import 'package:flutter/material.dart';
 
 // import 'screens/splash_screen.dart';
 
@@ -11,8 +10,8 @@ void main() {
     initialRoute: '/signUp',
     routes: {
       // '/splash': (context) => const SplashScreen(),
-      '/home': (context) => const GetStartedPage(),
-      '/signUp': (context) => const GetStartedPage(),
+      '/home': (context) => const LoginScreen(),
+      '/signUp': (context) => const LoginScreen(),
     },
   ));
 }

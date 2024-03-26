@@ -13,7 +13,7 @@ class AppTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 60,
+      height: 72,
       width: 380,
       child: TextField(
         decoration: InputDecoration(
@@ -23,7 +23,10 @@ class AppTextField extends StatelessWidget {
                     obscureIcon = !obscureIcon;
                   },
                   child: obscureIcon
-                      ? Icon(Icons.visibility)
+                      ? Icon(
+                          Icons.visibility,
+                          color: Color.fromARGB(255, 44, 20, 221),
+                        )
                       : Icon(Icons.visibility_off))
               : null,
           hintText: hint,
@@ -33,7 +36,7 @@ class AppTextField extends StatelessWidget {
           ),
           // contentPadding: EdgeInsets.only(top: 0.0, left: 10),
           border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(30),
+            borderRadius: BorderRadius.circular(23),
           ),
         ),
       ),
